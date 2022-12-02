@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500&family=Open+Sans:wght@400;700&display=swap');
+
+body {
+    font-family: 'Dosis', sans-serif;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10vh;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    gap: 30px;
+
+    width: 626px;
+    height: 486px;
+}
+
+main h1 {
+    font-family: 'Dosis', sans-serif;
+    font-size: 32px;
+    color: var(--color-text__strong);
+}
+
+main h1 strong {
+    color: var(--color-text__strong--title);
+}
+
+main p {
+    width: 540px;
+
+    text-align: center;
+    color: var(--color-text);
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+main p strong {
+    color: var(--color-text__strong);
+}
+
+.line {
+    margin-top: 7vh;
+    width: 24.4375rem;
+    border: 1px solid var(--color-line);
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 2vh;
+    
+}
+
+footer ul {
+    display: flex;
+    gap: 60px;
+
+    list-style: none;
+}
+
+footer ul li a {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    color: var(--color-text__strong);
+    font-weight: 700;
+
+    text-decoration: none;
+}
+
+footer img {
+    position: fixed;
+    width: 100vw;
+    bottom: 0;
+}

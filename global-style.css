@@ -1,0 +1,12 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-text: #828282;
+    --color-text__strong: #3F3D56;
+    --color-text__strong--title: #EE24FF;
+    --color-line:  #ECEFF2;
+}
